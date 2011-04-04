@@ -1,5 +1,7 @@
 /*
-@Description: This is the main java file. Input is text file which have stock values crawled over a period of time for different companies. The calculations for predicting buy/sell/hold  are done using 3 methods Bollinger Bands, MACD and Auto Regression. Output is in the form of an applet or web page.
+@Description: This is the main java file. Input is text file which have stock values crawled over a period of time for different companies. 
+The calculations for predicting buy/sell/hold  are done using 3 methods Bollinger Bands, MACD and Auto Regression. 
+Output is in the form of an applet or web page.
 @Author: 	Shweta Medhekar
 @Created: Aug 2007
 */
