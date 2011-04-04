@@ -1,7 +1,7 @@
 /*
 @Description: This is the main java file. Input is text file which have stock values crawled over a period of time for different companies. 
-The calculations for predicting buy/sell/hold  are done using 3 methods Bollinger Bands, MACD and Auto Regression. 
-Output is in the form of an applet or web page.
+                      The calculations for predicting buy/sell/hold  are done using 3 methods Bollinger Bands, MACD and Auto Regression. 
+                      Output is in the form of an applet or web page.
 @Author: 	Shweta Medhekar
 @Created: Aug 2007
 */
@@ -628,7 +628,6 @@ class FileRead
 		String record = null;
 		String[] temp = null;
 		String pre = new String ("W:/java workspace/Stock_try/");
-		//String pre = new String ("/empyrean/home/u1/madhur/public_html/");
 		String name = Stock_try.select;
 		String ext = new String (".txt");
 		//name = name.concat(ext);
@@ -679,13 +678,9 @@ class FileRead
 		{ 
 			try
 			{
-				//FilePermission perm1 = new FilePermission("C:/Stock_try/news.txt", "read");
 				FilePermission perm1 = new FilePermission("W:/java workspace/Stock_try/news.txt", "read");
-				//FilePermission perm1 = new FilePermission("/empyrean/home/u1/madhur/public_html/news.txt", "read");
 				AccessController.checkPermission(perm1);
-				//FileReader fr     = new FileReader("C:/Stock_try/news.txt");
 				FileReader fr     = new FileReader("W:/java workspace/Stock_try/news.txt");
-				//FileReader fr     = new FileReader("/empyrean/home/u1/madhur/public_html/news.txt");
 				BufferedReader br = new BufferedReader(fr);
 				record=new String();
         	
